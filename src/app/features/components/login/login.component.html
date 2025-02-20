@@ -1,0 +1,24 @@
+<div class="container-login">
+  <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <h2>Login</h2>
+
+    <div class="control-row">
+      <div class="control">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" ngModel required email #email="ngModel" />
+      </div>
+
+      <div class="control">
+        <label for="password">Senha:</label>
+        <input type="password" name="password" ngModel required password #password="ngModel" />
+      </div>
+    </div>
+
+    <button>Entrar</button>
+
+    @if (email.dirty && email.invalid && email.touched){
+    <p class="error">Endereço de e-mail inválido.</p>
+    }
+
+  </form>
+</div>

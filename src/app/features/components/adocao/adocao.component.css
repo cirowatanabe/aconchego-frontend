@@ -1,0 +1,31 @@
+.container-adocao {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cinza);
+  padding: 30px;
+  height: 100%;
+  border-radius: 20px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  border: 1px solid var(--contorno);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 1vh;
+  color: var(--verde);
+}
+
+h3 {
+  font-weight: 600;
+  color: var(--roxo)
+}
+
+.cards {
+  display: flex;
+  gap: 20px
+}

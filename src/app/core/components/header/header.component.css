@@ -1,0 +1,11 @@
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+img {
+  margin-left: 20px;
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+}

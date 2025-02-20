@@ -1,0 +1,33 @@
+.container-footer {
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--cinza);
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  /* Alinha os itens verticalmente */
+  border: 1px solid var(--contorno-cinza);
+  justify-content: space-between;
+  padding: 0 10px;
+  /* Adiciona um pequeno espaçamento nas laterais */
+}
+
+.marca {
+  align-items: start;
+  font-size: small;
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--roxo);
+}
+
+.contato {
+  color: var(--roxo);
+  margin: 5px;
+  text-align: end;
+  font-size: smaller;
+  display: block;
+  font-weight: 400;
+}

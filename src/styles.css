@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --cinza: #F2F2F2;
+  --laranja: #F2A477;
+  --verde: #B0BFAE;
+  --azul: #254159;
+  --roxo: #A6537A;
+
+
+  --contorno-cinza: rgb(235, 231, 231);
+  --contorno-laranja: #ec9d6f;
+
+
+  --laranja-ativo: #fe9456;
+
+  --mensagem-erro: #f37258;
+}

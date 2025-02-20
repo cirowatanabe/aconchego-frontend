@@ -1,0 +1,12 @@
+<div class="container-adocao">
+  <h1>Adoção responsável</h1>
+  <p style="font-weight: bold;">Dê um lar, salve uma vida! 🐾 </p>
+  <p>Nossos gatinhos resgatados esperam por uma segunda chance cheia de amor e carinho.
+    Adote e faça a diferença! 💙</p>
+
+  <div class="cards">
+    @for (cat of cats; track cat.id){
+    <app-card-cat [nome]="cat.nome" [descricao]="cat.descricao" [imagePath]="cat.path" />
+    }
+  </div>
+</div>
