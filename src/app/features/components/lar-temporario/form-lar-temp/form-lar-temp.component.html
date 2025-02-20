@@ -1,0 +1,62 @@
+<form class="form" [formGroup]="form" (ngSubmit)="onSubmit()">
+  <legend>Informações pessoais</legend>
+  <div class="row">
+    <div class="col-md-7 mb-3">
+      <label for="nome" class="form-label">Nome completo</label>
+      <input id="nome" name="nome" class="form-control" formControlName="nome" />
+    </div>
+
+    <div class="col mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input id="email" type="email" name="email" class="form-control" formControlName="email" />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col mb-3">
+      <label for="nacionalidade" class="form-label">Nacionalidade</label>
+      <input id="nacionalidade" name="nacionalidade" class="form-control" formControlName="nacionalidade" />
+    </div>
+
+    <div class="col mb-3">
+      <label for="nascimento" class="form-label">Data de nascimento</label>
+      <input id="nascimento" name="nascimento" class="form-control" type="date" formControlName="nascimento" />
+    </div>
+  </div>
+
+  <hr>
+
+  <legend>Endereço</legend>
+
+  <div class="row">
+    <div class="col-md-3 mb-3">
+      <label for="cep" class="form-label">CEP</label>
+      <input id="cep" type="text" class="form-control" formControlName="cep" />
+    </div>
+
+    <div class="col-md-9 mb-3">
+      <label for="rua" class="form-label">Rua</label>
+      <input id="rua" name="rua" class="form-control" formControlName="rua" />
+    </div>
+
+  </div>
+
+
+  <div>
+    <div class="row">
+      <div class="col-md-2 mb-3">
+        <label for="numero" class="form-label">N°</label>
+        <input type="text" name="numero" class="form-control" formControlName="numero" />
+      </div>
+      <div class="col-md-10 mb-3">
+        <label for="complemento" class="form-label">Complemento</label>
+        <input id="complemento" type="text" name="complemento" class="form-control" formControlName="complemento" />
+      </div>
+    </div>
+  </div>
+
+  <p class="form-actions">
+    <button type="button" class="btn btn-secondary" (onclick)="limparFormulario()">Limpar</button>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </p>
+</form>

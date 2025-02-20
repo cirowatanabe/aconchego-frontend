@@ -1,6 +1,4 @@
 import { Component, input } from '@angular/core';
-import { Cat } from '../../../core/models/cat.model';
-
 @Component({
   selector: 'app-card-cat',
   standalone: true,
